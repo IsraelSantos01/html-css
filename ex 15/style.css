@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+        /* Usar "margin: auto", faz com q a caixa sempre fique no meio*/
+        
+        
+
+        .cl1 {
+            font: bold 25px arial;
+            background-color: rgb(173, 104, 238);
+            text-align: center;
+            height: 220px;
+            width: 370px;
+
+            border-width: 15px;
+            border-style: solid;
+            border-color: red;
+        /*       ou         */
+             border: 10px solid red;
+            padding: 10px;
+
+            outline-style: dashed;
+            outline-color: blue;
+
+     /* outline: a cor, (o estilo), o tamanho */
+           margin: auto;
+        }
+            #id01{
+                background-color: skyblue;
+                text-align: center;
+                height: 220px;
+                width: 370px;
+                border: 10px solid yellowgreen;
+                margin: auto;
+
+            }
